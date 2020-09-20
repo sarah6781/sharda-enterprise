@@ -135,17 +135,19 @@
 			padding: 20px;
 			padding-top: 50px;
 			margin-top: 50px;
-			background-color: #e7e7e7;
+			background-color: #f7f7f7;
 		}
 
 		.service-items .row {
 			margin-top: 20px;
 		}
+
 		@media (min-width: 768px) {
 			.service-items .row {
 				width: 500px;
 			}
 		}
+
 		.package-dec {
 			text-align: center;
 			margin-top: 20px;
@@ -163,9 +165,36 @@
 			position: relative;
 			padding-left: 40px;
 		}
+
 		.footer {
-			margin-top: 20px;
-			padding: 20px
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #e7e7e7;
+		}
+
+		.footer .row {
+			max-width: 1200px;
+		}
+
+		.footer h3 {
+			font-size: 16px;
+		}
+
+		.footer p {
+			line-height: 30px;
+		}
+
+		.footer i {
+			color: #d65050;
+			margin-right: 10px;
+		}
+
+		.contact-address,
+		.contact-phone {
+			margin-bottom: 20px;
+			line-height: 30px;
 		}
 
 		.list-package li:before {
@@ -176,7 +205,6 @@
 			left: 0;
 			top: 0;
 		}
-		
 	</style>
 </head>
 
@@ -356,31 +384,45 @@
 		</div>
 	</div>
 	<!--service and products end-->
-	<div class="row footer">
-		<div class="col-md-4 center-data">
-			<div class="heading">
-				ABOUT US
-			</div>
-			<p>We are one of the leading Car Service provider. All services are performed by highly qualified and
-				experienced mechanics.</p>
+	<!--footer start-->
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>
+					ABOUT US
+				</h3>
+				<p>We are one of the leading Car Service provider. All services are performed by highly qualified and
+					experienced mechanics.</p>
 
-		</div>
-		<div class="col-md-4 center-data">
-			<div class="heading">
-				RECOGNIZED AS A START-UP
 			</div>
-			<p>All services  are performed by highly qualified mechanics.  We provide services at very reasonable rates such as car wash, complete exterior and interior cleaning, car polish, maintenance and many more. We manage the services end to end with complete responsibility and transparency. It's quick, convenient, secure and economical.</p>
-		</div>
-		<div class="col-md-4 center-data">
-			<i class="fa fa-home"></i>
-			<i class="fa fa-phone"></i>
-			<div class="heading">
-				CONTACT US
+			<div class="col-md-4">
+				<h3>
+					RECOGNIZED AS A START-UP
+				</h3>
+				<p>All services are performed by highly qualified mechanics. We provide services at very reasonable rates such
+					as
+					car wash, complete exterior and interior cleaning, car polish, maintenance and many more. We manage the
+					services
+					end to end with complete responsibility and transparency. It's quick, convenient, secure and economical.</p>
 			</div>
-			<p>Near towards right hand side of Prayagraj Power Generation Corporation Limited , located in Bara Tehsil in Prayagraj District, Uttar Pradesh.
-				Call us +91 9076543212 & 09334102580</p>
+
+			<div class="col-md-4">
+				<aside>
+					<h3>Contact Us</h3>
+					<div class="contact-address"><span><i class="fa fa-home"></i></span>Near towards right hand side
+						of Prayagraj Power Generation Corporation Limited , located in Bara Tehsil in Prayagraj
+						District, Uttar Pradesh.</div>
+					<div class="contact-phone"><span><i class="fa fa-phone"></i></span>Call us +91 9076543212 &
+						09334102580</div>
+					<div class="contact-email"><span><i class="fa fa-envelope"></i></span><a
+							href="mailto:info@carcooper.com">info@carcooper.com</a></div>
+				</aside>
+			</div>
 		</div>
-	</div>
+		<div>
+		</div>
+		<!--footer end-->
+
 </body>
 
 </html>
